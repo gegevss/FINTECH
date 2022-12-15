@@ -1,0 +1,54 @@
+:root {
+    --cor-de-fundo: #ffd5f2;
+    --caixa-texto: #ce91f3b6;
+    --caixa-acessar: #83C5BE;
+    --caixa-cadastro: #006D77; 
+    --azul-escuro: #304d63;
+    --rosa-mais-escuro: #13293d;
+    --escrita: #000000;
+    --escrita-branca: #FFFFFF;
+    --fonte-principal: "Inter";
+}
+
+.container{ 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--escrita);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    align-items: center;  
+    grid-template-columns: 33% 33% 33%;
+}
+
+.imagem__perfil{
+    margin: 1em 0 2em 0;
+    align-items: center;
+    padding: 2em;
+}
+
+.nome__usuario {
+    background-color: var(--caixa-texto) ;
+    border: 2px solid var(--escrita-branca);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--escrita);
+    margin-bottom: 2em;
+}   
+
+.dados__perfil {
+    background-color: var(--caixa-texto) ;
+    border: 2px solid var(--escrita-branca);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--escrita);
+    margin-bottom: 2em;
+    
+}

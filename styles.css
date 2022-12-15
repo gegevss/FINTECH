@@ -1,0 +1,95 @@
+:root {
+    --cor-de-fundo: #c6ecf9;
+    --caixa-texto: #83C5BE;
+    --caixa-acessar: #83C5BE;
+    --caixa-cadastro: #006D77; 
+    --azul-escuro: #304d63;
+    --rosa-mais-escuro: #13293d;
+    --escrita: #000000;
+    --escrita-branca: #FFFFFF;
+    --fonte-principal: "Inter";
+
+}
+head {
+    align-content: center;
+    align-items: center;
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--escrita);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    align-items: center;
+    
+}
+
+.principal {
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.container__botao {
+    background-color: var(--caixa-cadastro);
+    border-radius: 5px;
+    padding:1em;
+    display: block; 
+    color: var(--escrita-branca);
+    margin-bottom: 1em;
+    
+}
+
+.botao__acesse {
+    background-color: var(--caixa-acessar);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--escrita-branca);
+    margin-bottom: 1em;
+    
+}
+
+.botao__login {
+    background-color: transparent;
+    border: 2px solid var(--escrita-branca);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--escrita);
+    margin-bottom: 1em;
+   
+}
+
+.botao__senha {
+    background-color: transparent;
+    border: 2px solid var(--escrita-branca);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--escrita);
+    margin-bottom: 1em;
+    
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+    align-items: center;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
